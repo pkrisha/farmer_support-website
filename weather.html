@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard </title>
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+
+        <nav class="navbar">
+            <span class="open-btn" onclick="toggleSidebar()">☰</span>
+            <a href="dash.html">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+           
+           
+        </nav>
+
+    
+        <div class="flexcont">
+        <a href="#" class="sidebtn">SOIL PROFILE</a>
+        <a href="shopping.html" class="sidebtn">SHOPPING</a>
+        <a href="scheme.html" class="sidebtn">SCHEME</a>
+        <a href="weather1.html" class="sidebtn">WEATHER </a>
+        <a href="#" class="sidebtn">LOGOUT</a>
+        </div>
+    </div>
+    <div class="content">
+
+        <div class="app-main" id="parent">
+            <div class="header">
+                <h4>Get Weather</h4>
+            </div>
+            <div class="searchInputBox">
+                <input type="text" name="" id="input-box" class="input-box" placeholder="Enter city name">
+                <button id="btn" class="btn">Search</button>
+            </div>
+            <div class="weather-body" id="weather-body">
+            </div>
+                
+        </div>
+       
+    
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    
+    
+            </div>
+    <script src="dash.js"></script>
+</body>
+</html>

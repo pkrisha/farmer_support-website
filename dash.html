@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard </title>
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+
+        <nav class="navbar">
+            <span class="open-btn" onclick="toggleSidebar()">☰</span>
+            <a class="nvbtn" href="#home">Home</a>
+            <a class="nvbtn" href="#services">Services</a>
+            <a class="nvbtn" href="#about">About</a>
+            <a class="nvbtn" href="#contact">Contact</a>
+           
+           
+        </nav>
+
+    
+        <div class="flexcont">
+        <a href="final_soilprofile.php" class="sidebtn">SOIL PROFILE</a>
+        <a href="shopping.html" class="sidebtn">SHOPPING</a>
+        <a href="scheme.html" class="sidebtn">SCHEME</a>
+        <a href="weather1.html" class="sidebtn">WEATHER </a>
+        <a href="findex.php" class="sidebtn">LOGOUT</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="cont">
+            <div class="card">
+                <div class="txt">
+                    <h2 class='title'> kisan  khapra</h2>
+                    <br>
+                    <h3 class="txt2">palapmpur,punjab</h3>
+                </div>
+                 <button> More details</button>
+                </div>
+                
+                <main>
+                    <section id="expense-table">
+                        <h2>Expense Table</h2>
+                        <table id="expense-table-data">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Revenue</th>
+                                    <th>Expenditure</th>
+                                    <th>Balance</th>
+                                </tr>
+                            </thead>
+                            <tbody id="expense-table-body">
+                                <!-- table data will be rendered here -->
+                            </tbody>
+                        </table>
+                    </section>
+                    <section id="add-expense">
+                        <h2>Add Expense</h2>
+                        <form id="add-expense-form">
+                            <div class="label">
+                                <label class="datel"for="date">Date:</label>
+                                <input class="date"type="date" id="date" name="date"><br><br>
+                                <label class="datel"for="revenue">Revenue:</label>
+                                <input class="date"type="number" id="revenue" name="revenue"><br><br>
+                                <label class="datel"for="expenditure">Expenditure:</label>
+                                <input class="date"type="number" id="expenditure" name="expenditure"><br><br>
+                            </div>
+                            
+                            <button id="add-expense-btn">Add Expense</button>
+                        </form>
+         
+                    </section>
+                </main>
+              
+                <script src="style2.js"></script>
+            </div>
+            
+    <script src="dash.js"></script>
+   
+</body>
+</html>
